@@ -1,0 +1,123 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+.row {
+	width: 100%;
+	clear:left;
+}
+
+* {
+	box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+@media (min-width: 992px){
+
+	.col-lg-1 { 
+		float: left;
+		position: relative;
+		border: 3px solid black;
+		margin: 1.5%;
+		padding: 25px 15px 0px;
+		background-color: antiquewhite;
+	}
+
+	.col-lg-1 {
+		width: 30.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+	.col-md-1, .col-md-2 { 
+		float: left;
+		position: relative;
+		border: 3px solid black;
+		margin: 1.5%;
+		padding: 25px 15px 0px;
+		background-color: antiquewhite;
+	}
+
+	.col-md-1 {
+		width: 47%; 
+	}
+
+	.col-md-2 {
+		width: 97%;
+	}
+}
+
+@media (max-width: 767px){
+
+	.col-xs-1 { 
+		float: left;
+		position: relative;
+		border: 3px solid black;
+		margin: 1.5%;
+		padding: 25px 15px 0px;
+		background-color: antiquewhite;
+	}
+
+	.col-xs-1 {
+		width: 97%;
+	}
+}
+
+.JAI {
+	background-color: #ffa600;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+    font-weight: 400;
+	font-size: 125%;
+
+}
+.SHRI {
+	background-color: rgba(220, 20, 60, 0.65);
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	font-weight: 400;
+	font-size: 125%;
+
+}
+.RAM {
+	background-color: rgb(89, 255, 47);
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	font-weight: 400;
+	font-size: 125%;
+}
+
+p{
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
+    color: maroon;
+	font-size: 250%;
+    font-weight: bold;
+}
