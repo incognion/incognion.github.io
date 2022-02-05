@@ -82,6 +82,7 @@ header{
     border-radius: 30px;
     color: whitesmoke;
     text-shadow: 1px 1px 5px #000000a6;
+    box-shadow: 2px 2px 5px #00000055;
 }
 .menu-btn{
     position: absolute;
@@ -301,7 +302,7 @@ img:hover{
 .ctn:hover{
     background: whitesmoke;
     color: crimson;
-    box-shadow: 2px 2px 5px #00000055;
+    box-shadow: 2px 2px 5px #00000095;
 }
 li:hover{
     color: crimson;
