@@ -80,7 +80,7 @@ hard.addEventListener('click', function () {
     easy[1].classList.remove('active')
     medium.classList.remove('active')
     topHead.style.backgroundColor = 'crimson'
-    result.innerHTML = ''
+    result.innerHTML = 'result'
     colors = colorBoxes(9)
     topColor()
     boxColor()
@@ -102,7 +102,7 @@ medium.addEventListener('click', function () {
         boxes[i].style.visibility = 'visible'
     }
     topHead.style.backgroundColor = 'crimson'
-    result.innerHTML = ''
+    result.innerHTML = 'result'
     colors = colorBoxes(6)
     topColor()
     boxColor()
@@ -122,7 +122,7 @@ for (let i = 0; i < 2; i++) {
         medium.classList.remove('active')
         hard.classList.remove('active')
         topHead.style.backgroundColor = 'crimson'
-        result.innerHTML = ''
+        result.innerHTML = 'result'
         colors = colorBoxes(3)
         topColor()
         boxColor()
