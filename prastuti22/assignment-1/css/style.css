@@ -14,10 +14,10 @@ body {
   transition: background-color 0.5s;
 }
 h1 {
-  font-size: 55px;
+  font-size: 40px;
 }
 h2 {
-  font-size: 45px;
+  font-size: 35px;
 }
 nav {
   background-color: white;
@@ -26,9 +26,8 @@ nav {
 nav a {
   color: midnightblue;
   text-decoration: none;
-  font-size: 22px;
-  padding: 2px 7px;
-  margin: 3px;
+  padding: 5px;
+  margin: 2px;
   border-radius: 7px;
   box-shadow: 1px 1px 7px #888;
 }
@@ -59,5 +58,11 @@ nav a:hover {
     display: flex;
     max-width: 600px;
     justify-content: space-between;
+  }
+  h1{
+    font-size: 55px;
+  }
+  h2{
+    font-size: 45px;
   }
 }
